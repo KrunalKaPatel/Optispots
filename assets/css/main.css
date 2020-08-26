@@ -259,6 +259,8 @@ i.fa.fa-times:hover{color:#fff;}
 .pageFooter .wrap-1170 .footer-detail .links-twitts{width:100%;display:flex;justify-content:center;}
 }
 @media(max-width:768px){.pageHeader .nav-menu-i i{display:block;color: #ff7200;z-index: 30;}
+i.fa.fa-times{position:fixed;z-index:21;top:10%;color:#fff;}
+i.fa.fa-times:hover{color:#fff;}
 .pageHeader .logo-menu .menu{display:none;}
 
 .display-25{flex:0 0 100%}
