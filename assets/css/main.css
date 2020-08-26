@@ -63,13 +63,13 @@ p{margin:0;padding:0}
 
 /* Mobile View Menu Start
 ----------------------------*/
-i.fa.fa-times{position:fixed;z-index:21;top:10%;color:#fff;}
-i.fa.fa-times:hover{color:#fff;}
 .pageHeader .nav-menu-i i{position:absolute;top:40%;right:6%;color:rgba(255, 114, 0,0.6);font-size:30px;z-index:10;display:none;}
 .pageHeader .nav-menu ul li{display:block;padding:10px;}
 .pageHeader .nav-menu ul li a{font-family:'OpenSans-Regular';font-weight:400;color:#fff;font-size:25px;margin-top:30px;}
 .pageHeader .nav-menu ul li a:hover{-webkit-transform:scale(1.5);-ms-transform:scale(1.5);transform:scale(1.5);}
-.pageHeader .nav-menu{position:fixed;top:0;right:0;width:100%;text-align:center;height:100vh;background-color:#ff7200;opacity:1;z-index:20;display:none;padding-top:28px;}
+.pageHeader .nav-menu{position:fixed;top:0;right:0;width:100%;text-align:center;height:110vh;background-color:#ff7200;opacity:1;z-index:20;display:none;padding-top:28px;}
+i.fa.fa-times{position:fixed;z-index:21;top:10%;color:#fff;}
+i.fa.fa-times:hover{color:#fff;}
 /* Mobile View Menu End
 ----------------------------*/
 /* Header Section End
@@ -258,10 +258,12 @@ i.fa.fa-times:hover{color:#fff;}
 .pageFooter .wrap-1170 .footer-detail .footer-images p{width:100%;}
 .pageFooter .wrap-1170 .footer-detail .links-twitts{width:100%;display:flex;justify-content:center;}
 }
-@media(max-width:768px){.pageHeader i{display:block;}
+@media(max-width:768px){.pageHeader .nav-menu-i i{display:block;color: #ff7200;z-index: 30;}
 .pageHeader .logo-menu .menu{display:none;}
 
 .display-25{flex:0 0 100%}
+.display-25:hover {transform: scale(1);}
+.display-33:hover {transform: scale(1);}
 
 .banner-bg .banner-detail{padding:100px 0px;}
 .banner-bg .banner-detail h1{font-size:40px;line-height:50px;margin-bottom:20px;}
@@ -292,11 +294,16 @@ i.fa.fa-times:hover{color:#fff;}
 .pageFooter .wrap-1170 .footer-detail .links-twitts .footer-service{margin:0;}
 .Twitts-feed{text-align:center;}
 }
-@media(max-width:480px){.digital-market-bg .wrap-1307 .digital-market-card .display-25{flex:0 0 100%;}
+@media(max-width:550px){.pageHeader .nav-menu-i i{color: #fff;}}
+@media(max-width:480px){ .pageHeader .logo-menu .site-logo{width: 45%;}
+
+.digital-market-bg .wrap-1307 .digital-market-card .display-25{flex:0 0 100%;}
 
 .work-bg .section-detail h3{width:100%;}
 
 .servise-bg .section-detail h3{text-align:center;}
 }
-@media(max-width:375px){.container{padding:0px 10px;}
+@media(max-width:375px){.container{padding:0px 20px;}
+.pageFooter .wrap-1170 .footer-detail .links-twitts .links-service{text-align: center;flex-direction: column;}
+.pageFooter .wrap-1170 .footer-detail .links-twitts .quick-links{margin-bottom: 25px;}
 }
