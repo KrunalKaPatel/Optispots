@@ -33,7 +33,6 @@ p{margin:0;padding:0}
 .display-25{display:flex;flex:0 0 25%;margin-bottom:20px;padding:0px 10px;transition:all 0.5s ease;}
 .display-25:hover{transform:scale(1.05);}
 .display-33{display:flex;flex:0 0 33.33%;padding:0px 13px;transition:all 0.5s ease;margin-bottom:20px;}
-.display-33:hover{transform:scale(1.05);}
 .orange-button{padding:15px 37px;background:#ff7200;border:2px solid #fff;font-size:15px;font-weight:600;font-family:'OpenSans-Regular';border-radius:40px;letter-spacing:0px;color:#fff;transition:all 0.5s ease;}
 .orange-button:hover{color:#ff7200;background-color:#fff;border:2px solid #ff7200;}
 .section-detail h3{font-size:55px;letter-spacing:-1.9px;line-height:56px;color:#42495b;font-weight:bold;font-family:'Gilroy-Bold';margin-bottom:25px;}
@@ -45,8 +44,8 @@ p{margin:0;padding:0}
 
 /* Header Section Start
 ------------------------------*/
-.pageHeader{position:absolute;top:0;left:0;width:100%;z-index:1;padding:48px 0px;}
-.pageHeader .logo-menu .site-logo{width:24.1%;}
+.pageHeader{position:absolute;top:0;left:0;width:100%;z-index:1;padding:48px 0px;transition: all 0.7s ease;}
+.header-scrolled{background-color: #ff7200; box-shadow: 0px 0px 30px rgba(255, 114, 0, 1); position: fixed; top: 0; z-index: 100; width: 100%; transition: all 0.7s ease; padding: 30px 0px 30px 0px;} .pageHeader .logo-menu .site-logo{width:24.1%;}
 .pageHeader .logo-menu{display:flex;align-items:center;}
 .pageHeader .logo-menu .menu{width:80%;margin-top:-10px;}
 .pageHeader .logo-menu .menu ul li a{font-size:16px;color:#fff;font-family:'OpenSans-Regular';font-weight:400;margin:0px 20px;}
@@ -80,9 +79,9 @@ i.fa.fa-times:hover{color:#fff;}
 .banner-bg{background:url("../images/banner-image.png") center top no-repeat;position:relative;background-size:cover;}
 .banner-bg .container{display:flex;justify-content:center;}
 .banner-bg .banner-detail{color:#fff;padding-top:289px;padding-bottom:397px;}
-.banner-bg .banner-detail h1{font-size:80px;letter-spacing:-2.6px;color:#ffffff;font-weight:300;font-family:'Gilroy-Light';margin-bottom:57px;line-height:92px;}
-.banner-bg .banner-detail h1 span{font-family:'Gilroy-Bold';font-weight:800;letter-spacing:-3.3px;font-size:100px;}
-.banner-bg .banner-detail p{font-size:24px;color:#fefeff;font-weight:400;font-family:'OpenSans-Regular';width:44%;line-height:32.5px;margin-bottom:37px;}
+.banner-bg .banner-detail h1{font-size:80px;letter-spacing:-2.6px;color:#ffffff;font-weight:300;font-family:'Gilroy-Light';margin-bottom:65px;line-height:92px;}
+.banner-bg .banner-detail h1 span{display: block;font-family:'Gilroy-Bold';font-weight:800;letter-spacing:-3.3px;font-size:100px;}
+.banner-bg .banner-detail p{font-size:24px;color:#fefeff;font-weight:400;font-family:'OpenSans-Regular';width:44%;line-height:30.5px;margin-bottom:39px;}
 .banner-bg .banner-detail .ban-but i{margin-left:3px;font-size:19px;}
 /* Banner Section Ends
 ------------------------------*/

@@ -1,5 +1,14 @@
 $(document).ready(function(){
 
+	$(window).scroll(function() {
+    if ($(this).scrollTop() > 0) {
+      $('.pageHeader').addClass('header-scrolled');
+    } 
+    else {
+      $('.pageHeader').removeClass('header-scrolled');
+    }
+  });
+
 	/* JS For mobile view menu */
 	$( ".fa-times" ).hide();
     $( ".nav-menu" ).hide();
